@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap:wrap; */
+    width: 200px;    
+    height: 400px;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid black;    
+}
+.item{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
